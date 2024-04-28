@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.head{
+  text-align: center;
+  background-color:rgb(50, 153, 221);
+}
+h1{
+  text-align: center;
+}
+
+
+
+.horizontal-form {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.row {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+.horizontal-form{
+  border-color:rgb(224, 35, 35);
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px; 
+}
+
+
+
+#search-bar {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 15px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f8f8f8;
+  background-position: right 10px center; 
+  background-repeat: no-repeat;
+  padding-right: 35px; 
+  margin-bottom: 10px;
+  
+}
+
+#search-bar:focus {
+  outline: none;
+  border-color: #007bff; 
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0)
+}
+
+
+#mytable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+#mytable th {
+  background-color: #f2f2f2;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+
+#mytable td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+
+
